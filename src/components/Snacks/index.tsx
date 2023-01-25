@@ -4,7 +4,14 @@ import { FiPlus } from 'react-icons/fi'
 import { currencyFormat } from '../../helpers/currencyFormat'
 
 interface SnacksProps {
-  snacks: any[]
+  snacks: {
+    id: number,
+    snack?: string,
+    name: string,
+    description:string,
+    price: number,
+    image: string,
+  }[]
 }
 
 function Snacks({ snacks }: SnacksProps) {
