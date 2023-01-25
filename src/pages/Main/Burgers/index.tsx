@@ -1,6 +1,12 @@
+import { Head } from "../../../components/Head";
+import { SnackTitle } from "../../../components/SnackTitle";
+
 function Burgers() {
   return (
-    <div>Burgers</div>
+    <>
+      <Head title="Burgers" />
+      <SnackTitle>Burgers</SnackTitle>
+    </>
   )
 }
 
